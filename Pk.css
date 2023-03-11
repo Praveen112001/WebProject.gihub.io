@@ -1,0 +1,50 @@
+form {
+    width: 600px; /* set the width of the form */
+    margin: 0 auto; /* center the form on the page */
+    text-align: center; /* center the form content */
+    padding: 20px; /* add some padding to the form */
+    border: 1px solid #ddd; /* add a border to the form */
+  }
+  
+  table, th, td {
+    border: 1px solid;
+  }
+
+  table {
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
+
+  label {
+    display: block; /* display the labels as block elements */
+    margin-bottom: 10px; /* add some margin below the labels */
+  }
+  
+  input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%; /* set the width of the input fields */
+    padding: 12px 20px; /* add some padding to the input fields */
+    margin: 8px 0; /* add some margin to the input fields */
+    box-sizing: border-box; /* include the padding and border in the total width */
+    border: 1px solid #ccc; /* add a border to the input fields */
+    border-radius: 4px; /* round the corners of the input fields */
+  }
+  
+  input[type="submit"], input[type="button"] {
+    width: 30%; /* set the width of the submit and cancel buttons */
+    /*background-color: #af7a4c; /* set the background color of the buttons */
+    /*color: white; /* set the text color of the buttons */
+    padding: 14px 20px; /* add some padding to the buttons */
+    margin: 50px ; /* add some margin to the buttons */
+    border: none; /* remove the border from the buttons */
+    border-radius: 4px; /* round the corners of the buttons */
+    cursor: pointer; /* change the cursor to a pointer when hovering over the buttons */
+  }
+  
+  input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #45a049; /* change the background color of the buttons on hover */
+  }
+  
+  

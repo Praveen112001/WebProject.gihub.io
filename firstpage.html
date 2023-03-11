@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      body {
+        background-image: url("D:\Web Development Project\Study2.jpg");
+        background-image: url("D:\Web Development Project\Study.jpg");
+        background-size: cover;
+      }
+    </style>
+
+   
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="w3-bar w3-black">
+        <a href="#Home" class="w3-button w3-bar-item">Home</a>
+        <a href="#Class" class="w3-button w3-bar-item">Class</a>
+        <a href="#Branch" class="w3-button w3-bar-item">Branch</a>
+        <a href="#Contact" class="w3-button w3-bar-item">Contact</a>
+    </nav>
+
+      <form action="#" method="get">
+        <input type="text" placeholder="Search..." name="search">
+        <button type="submit">Search</button>
+      </form>
+
+      <h1 style="text-align:center">PR Study Material </h1>
+
+      <h5> Hello everyone Welcome to The PR Study Material Website</h5>
+      <p style="background-image: url('D:\Web Development Project\Study2.jpg');"></p>
+      
+      <section>
+        <img class="mySlides" src="D:\Web Development Project\Study2.jpg" style="width:100%">
+        <img class="mySlides" src="D:\Web Development Project\study.jpg" style="width:100%">
+        
+      </section>
+
+      
+
+      <script>
+        // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 3000);
+        }
+        </script>
+        
+        
+
+        
+
+
+
+
+
+      <!-- Footer -->
+      <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+        <a href="#"><i class="fa fa-facebook-official"></i></a>
+        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-flickr"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <p class="w3-medium">
+          
+        </p>
+      </footer>
+    
+</body>
+</html>
+
+  
+  
